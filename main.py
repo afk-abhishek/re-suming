@@ -1,13 +1,9 @@
+from parser.file_parser import load_resumes, load_job
 from sklearn_model.TFIDF_matcher import TFIDFMatcher
 
 
-resumes = [
-    "Python developer with ML and AWS experience",
-    "Web developer skilled in React and Node",
-    "Data scientist with PyTorch and NLP background"
-]
-
-job_desc = "Looking for ML engineer with Python and PyTorch"
+resumes = load_resumes("data/resumes")
+job_desc = load_job("data/jobs")
 
 matcher = TFIDFMatcher()
 
