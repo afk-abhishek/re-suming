@@ -1,0 +1,2 @@
+Data scientist with PyTorch, NLP, and computer vision background.
+Strong in statistics and ML models.
