@@ -1,0 +1,25 @@
+# Core Machine Learning
+scikit-learn>=1.0.0
+numpy>=1.21.0
+
+# Deep Learning & NLP
+torch>=2.0.0
+transformers>=4.30.0
+
+# Vector Database
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA
+
+# Text Processing
+nltk>=3.8.0
+
+#
+pandas>=1.5.0  # For data analysis
+matplotlib>=3.5.0  # For visualizations
+seaborn>=0.12.0  # For better plots
+tqdm>=4.65.0  # Progress bars
+
+# For UI
+streamlit>=1.25.0
+
+# Utilities
+joblib>=1.2.0  # For saving models
